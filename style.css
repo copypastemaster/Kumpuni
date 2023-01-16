@@ -37,3 +37,25 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+                        /* FIRST CONTENT */
+
+.first-content {
+    background: #334052;
+    border: 1px solid red;
+    display: flex;
+    flex-basis: 500px;
+    justify-content: space-between;
+}
+
+.left-content {
+    border: 1px solid white;
+    
+    
+}
+
+.right-content {
+    border: 1px solid blue;
+    flex-basis: 500px;
+
+}
