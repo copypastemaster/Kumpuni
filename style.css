@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#whole{
+    display: flex;
+    flex-direction: column;
+}
+
+                            /* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #334052;
+}
+
+.heading {
+    flex-basis: 500px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-basis: 500px;
+}
+
+.link p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
