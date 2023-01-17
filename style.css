@@ -10,6 +10,10 @@ body {
 }
 
 
+
+
+
+
 /* HEADER */
 
 .header {
@@ -45,6 +49,10 @@ body {
 }
 
 
+
+
+
+
 /* First-content */
 
 .first-content {
@@ -57,8 +65,8 @@ body {
 .left-content, .right-content {
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-basis: 400px;
+    flex-shrink: 1;
 }
 
 .left-content h1 {
@@ -92,4 +100,39 @@ body {
 
 .right-content {
     margin-left: 170px;
+}
+
+
+
+
+/* Second-content */
+
+.second-content {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background: rgb(232, 234, 248);
+}
+
+.second-content div {
+    flex-basis: 300px;
+    padding: 7px;
+}
+
+.plumber img, .electrician img, .mechanic img, .carpenter img{
+    height: 25vh;
+    width: auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.second-content div p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.second-content a {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
 }
