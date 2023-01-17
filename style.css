@@ -136,3 +136,64 @@ body {
     text-decoration: none;
     color: rgb(27, 26, 26);
 }
+
+
+
+
+
+/* Quote-content */
+
+
+.quote-content {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 30vh;
+    background: #d2d4da;
+    gap: 20px;
+}
+
+.quote-content .quote {
+    font-style:italic;
+    font-size: 36px;
+    flex-basis: 500px;
+}
+
+.quote-content .speaker {
+    font-size: 24px;
+    align-self:center;
+}
+
+
+
+
+/* Final-conent */
+
+.final-content {
+    height: 32vh;
+    max-width: 1200px;
+    margin-left: 350px;
+}
+
+.final-container {
+    background: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+.call-to-action {
+    color: white;
+}
+
+.final-container button {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 40px;
+    background: #3882F6;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+}
