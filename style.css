@@ -1,61 +1,95 @@
-body{
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#whole{
+#whole {
     display: flex;
     flex-direction: column;
 }
 
-                            /* HEADER */
+
+/* HEADER */
 
 .header {
     display: flex;
     justify-content: space-between;
-    background: #334052;
+    background: #1F2937;
 }
 
 .heading {
-    flex-basis: 500px;
+    flex-grow: 1;
     text-align: center;
+    padding-bottom: 60px;
+    padding-top: 16px;
 }
 
 .heading h1 {
-    font-size: 24px;
+    margin-top: 0;
     color: #F9FAF8;
+    font-size: 24px;
+    margin-right: 112px;
 }
 
 .link {
     display: flex;
-    gap: 40px;
-    align-items: center;
-    flex-basis: 500px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-basis: 50px;
+    gap: 1px;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding-bottom: 0px;
 }
 
-.link p {
-    font-size: 18px;
+
+/* First-content */
+
+.first-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    background: #1F2937;
+}
+
+.left-content, .right-content {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.left-content p {
     color: #E5E7EB;
 }
 
-                        /* FIRST CONTENT */
-
-.first-content {
-    background: #334052;
-    border: 1px solid red;
-    display: flex;
-    flex-basis: 500px;
-    justify-content: space-between;
+.left-content button {
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 14px;
+    background: #3882F6;
+    color: #F9FAF8;
 }
 
 .left-content {
-    border: 1px solid white;
-    
-    
+    margin-left: 170px;
+}
+
+
+.right-content img{
+    height: 36vh;
+    width: auto;
+    border-radius: 20px;
 }
 
 .right-content {
-    border: 1px solid blue;
-    flex-basis: 500px;
-
+    margin-left: 170px;
 }
