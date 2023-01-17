@@ -148,7 +148,6 @@ body {
     display: flex;
     justify-content: center;
     padding: 30px;
-    height: 30vh;
     background: #d2d4da;
     gap: 20px;
 }
@@ -171,8 +170,7 @@ body {
 
 .final-content {
     height: 32vh;
-    max-width: 1200px;
-    margin-left: 350px;
+    flex: 1;
 }
 
 .final-container {
@@ -180,7 +178,8 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
-    margin: 70px;
+    margin: 50px 400px;
+    border: 1px solid red;
 }
 
 .call-to-action {
